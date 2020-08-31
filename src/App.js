@@ -5,10 +5,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
-import { Container, Row, Col, Button, Nav, Navbar, Image } from 'react-bootstrap';
+import { Container, Row, Col, Nav, Navbar, Image } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 
 import Publications from './Publications';
