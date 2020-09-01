@@ -7,37 +7,16 @@ import {
   Route,
 } from "react-router-dom";
 
-import { Container, Row, Col, Nav, Navbar, Image } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 
 import Publications from './Publications';
 import Projects from './Projects';
 import About from './About';
-import profile from "./profile.png";
+import Home from './Home';
 
 const SOCIAL_STYLE = {height: 35, width: 35};
 
-function Home() {
-  return (
-    <Row>
-      <Col xs={4}>
-        <Image src={profile} rounded width="100%" />
-      </Col>
-      <Col>
-        <h1 className="text-center">Jared Coleman</h1>
-        <p className="mt-3 text-center">I am a <b>Ph.D. student</b> at <a href="https://usc.edu">University of Southern California</a> under advisor <a href="http://ceng.usc.edu/~bkrishna/">Bhaskar Krishnamachari</a>.
-        I have <b>Master's and Bachelor's degrees</b> in <b>Computer Science</b> from California State University, Long Beach.
-        I am a <b>Member of the Technical Staff</b> at the Federally Funded Research and Development.</p> 
-
-        <h2 className="text-center">Research Interests</h2>
-        <p className="text-center">
-          I have a broad interest in computer science and mathematics. 
-          In particular, my research interests include <b>computational geometry</b>, discrete mathematics, graph theory, distributed computing, and <b>mobile robotic networks</b>.
-        </p>
-      </Col>
-    </Row>
-  );  
-}
 
 function App() {
   return (
@@ -53,7 +32,8 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Container>
+
+      <Container style={{paddingBottom: '75px'}}>
         <Switch>
           <Route path="/about">
             <About />
