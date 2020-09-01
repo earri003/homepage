@@ -22,9 +22,8 @@ function Projects() {
                         <p>
                             <a href="https://kubishi.com">Kubishi</a> is an online dictionary and encyclopedia for Owens Valley Paiute language and culture.
                             The Owens Valley Paiute language is <a href='http://www.endangeredlanguages.com/lang/4692'>critically endangered</a>.
-                            Kubishi is one resource in the <a href='http://www.ovcdc.com/blog/language/'>fight</a> (led by Tribes of the Owens Valley) against generations of damage inflicted by forced assimilation and colonialism.
-                            The goal of this project is to help promote and preserve Owens Valley Paiute language and culture.
-                            We hope that by open-sourcing the project, other tribal nations can use Kubishi to help preserve and promote their own languages and cultures.
+                            Kubishi is one resource in the <a href='http://www.ovcdc.com/blog/language/'>fight</a> (led by Tribes of the Owens Valley) to reverse the damage inflicted by generations of forced assimilation and colonialism.
+                            The goal of this project is to help promote and preserve Owens Valley Paiute language and culture, but also to provide an open-source toolset for other tribal nations to do the same.
                         </p>
                     </Col>
                 </Row>
