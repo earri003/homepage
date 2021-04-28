@@ -12,7 +12,11 @@ function Publications () {
                         <br />
                         In proceedings CCCG 2020, 32nd Canadian Conference on Computational Geometry, August 5-7, 2020
                         <br />
-                        J. Coleman, E. Kranakis, O. Morales-Ponce, J. Opatrny, J. Urrutia, B. Vogtenhuber
+                        <a href="https://jaredraycoleman.com">J. Coleman</a>
+                        <a href="http://people.scs.carleton.ca/~kranakis/">E. Kranakis</a>
+                        <a href="http://web.csulb.edu/~omorales/">O. Morales-Ponce</a>
+                        <a href="https://www.matem.unam.mx/~urrutia/">J. Urrutia</a>
+                        <a href="http://www.ist.tugraz.at/staff/vogtenhuber/">B. Vogtenhuber</a>
                     </ListGroup.Item>
                 </ListGroup>
             </Col>
