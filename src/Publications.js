@@ -6,7 +6,8 @@ const websites = {
     "Evangelos Kranakis": "http://people.scs.carleton.ca/~kranakis/",
     "Oscar Morales-Ponce": "http://web.csulb.edu/~omorales/",
     "Jorge Urrutia": "https://www.matem.unam.mx/~urrutia/",
-    "Birgit Vogtenhuber": "http://www.ist.tugraz.at/staff/vogtenhuber/"
+    "Birgit Vogtenhuber": "http://www.ist.tugraz.at/staff/vogtenhuber/",
+    "Danny Krizanc": "https://dkrizanc.web.wesleyan.edu/"
 }
 
 const pubs = [
@@ -15,6 +16,12 @@ const pubs = [
         "venue": "In proceedings CCCG 2020, 32nd Canadian Conference on Computational Geometry, August 5-7, 2020",
         "authors": ["Jared Coleman", "Evangelos Kranakis", "Oscar Morales-Ponce", "Jorge Urrutia", "Birgit Vogtenhuber"],
         "link": "https://arxiv.org/pdf/2006.15664.pdf"
+    },
+    {
+        "title": "The Pony Express Communication Problem",
+        "venue": "To appear in IWOCA 2021 - 32nd International Workshop on Combinatorial Algorithms",
+        "authors": ["Jared Coleman", "Evangelos Kranakis", "Oscar Morales-Ponce", "Danny Krizanc"],
+        // "link": "https://arxiv.org/pdf/2006.15664.pdf"
     }
 ]
 
@@ -25,7 +32,7 @@ function Publications () {
         }).reduce((prev, curr) => [prev, ", ", curr]);
         return (
             <ListGroup.Item key={pub.link}>
-                <a href={pub.link} style={{color: "black"}}><b>{pub.title}</b></a>
+                {pub.link ? <a href={pub.link} style={{color: "black"}}><b>{pub.title}</b></a> : <b>{pub.title}</b>}
                 <br />
                 {pub.venue}
                 <br />
