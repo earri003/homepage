@@ -24,7 +24,7 @@ function About() {
                 <h2>More About Me</h2>
                 <p>
                     I am a proud member of the <a href="https://www.bigpinepaiute.org/">Big Pine Paiute Tribe of the Owens Valley</a>. 
-                    Besides computer science, I enjoy politics, hiking, and generally learning new things (languages, etc.).
+                    Besides computer science, I enjoy board games, hiking, and generally learning new things (languages, etc.).
                 </p>
                 <p>
                     I am husband to <a href="https://tainacoleman.com">Tainã Coleman</a>, an amazing computer scientist, wife, and friend. I met Tainã in 2013 during my first semester as an undergraduate at <a href="https://csulb.edu">CSULB</a> while she was visiting as an international exchange student from Brazil. After her one-year program was up, I followed her back to her university, <a href="https://unifei.edu.br/">Universidade Federal de Itajubá</a> and studied there for three semesters. In 2016, we returned to the United States, got married, and decided to finally stay put in Long Beach.
