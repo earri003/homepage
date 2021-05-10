@@ -37,8 +37,8 @@ const pubs = [
     }
 ]
 
-const SOCIAL_STYLE = {height: 30, width: 30};
-const SOCIAL_CLASS_NAME = "mr-4";
+const SOCIAL_STYLE = {height: 25, width: 25};
+const SOCIAL_CLASS_NAME = "mr-2";
 function getSocial(social, url) {
     if (social == "pdf") {
         return (
@@ -68,6 +68,14 @@ function Publications () {
         const social = Object.entries(pub.social || {}).map(([social, url]) => {
             return getSocial(social, url);
         });
+        const linksRow = (pub.social || []).length <= 0 ? null : (
+            <Row>
+                <Col>
+                    <h5><b>Links</b></h5>
+                    {social}
+                </Col>
+            </Row>
+        );
         return (
             <Card>
                 <Accordion.Toggle as={Card.Header} eventKey={`acc-${i}`} style={{cursor: 'pointer'}}>
@@ -80,19 +88,24 @@ function Publications () {
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey={`acc-${i}`}>
                     <Card.Body>
-                        <Row className="justify-content-center">
+                        {/* <Row className="justify-content-center">
                             <Col className="text-center">
                                 {social}
                             </Col>
-                        </Row>
+                        </Row> */}
                         <Row className="mt-2">
                             <Col xs={12} sm={8} lg={10}>
                                 <h5><b>Abstract</b></h5>
                                 <span style={{ whiteSpace: 'pre-line' }}>{pub.abstract}</span>
                             </Col>
                             <Col>
-                                <h5><b>Authors</b></h5>
-                                {authors}
+                                {linksRow}
+                                <Row className="mt-3">
+                                    <Col>
+                                        <h5><b>Authors</b></h5>
+                                        {authors}
+                                    </Col>
+                                </Row>
                             </Col>
                         </Row>
                     </Card.Body>
