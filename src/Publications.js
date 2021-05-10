@@ -94,7 +94,7 @@ function Publications () {
                             </Col>
                         </Row> */}
                         <Row className="mt-2">
-                            <Col xs={12} sm={8} lg={10}>
+                            <Col xs={12} sm={8} lg={10} className="mb-3">
                                 <h5><b>Abstract</b></h5>
                                 <span style={{ whiteSpace: 'pre-line' }}>{pub.abstract}</span>
                             </Col>
