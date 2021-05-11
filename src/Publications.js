@@ -1,5 +1,5 @@
 import React from 'react';
-import {Row, Col, ListGroup, Card } from 'react-bootstrap';
+import {Row, Col, Card } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion'
 import { SocialIcon } from 'react-social-icons';
 import { GrDocumentPdf } from 'react-icons/gr';
@@ -42,7 +42,7 @@ const pubs = [
 const SOCIAL_STYLE = {height: 25, width: 25};
 const SOCIAL_CLASS_NAME = "mr-2";
 function getSocial(social, url) {
-    if (social == "pdf") {
+    if (social === "pdf") {
         return (
             <a key={`social-pdf`} href={url}>
                 <GrDocumentPdf 
