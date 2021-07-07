@@ -17,7 +17,7 @@ const websites = {
 const pubs = [
     {
         "title": "The Pony Express Communication Problem",
-        "venue": "To appear in IWOCA 2021 - 32nd International Workshop on Combinatorial Algorithms",
+        "venue": "In Proceedings IWOCA 2021 - 32nd International Workshop on Combinatorial Algorithms",
         "authors": ["Jared Coleman", "Evangelos Kranakis", "Oscar Morales-Ponce", "Danny Krizanc"],
         "social": {
             "pdf": "https://arxiv.org/pdf/2105.03545"
