@@ -11,7 +11,7 @@ function Home() {
         <Col>
             <h1 className="text-center">Jared Coleman</h1>
             <p className="mt-3 text-center">
-                I am a <b>Ph.D. student</b> at <a href="https://usc.edu">University of Southern California</a> under advisor <a href="http://ceng.usc.edu/~bkrishna/">Bhaskar Krishnamachari</a>.
+                I am a <b>Ph.D. student</b> at <a href="https://usc.edu">University of Southern California</a> advised by <a href="http://ceng.usc.edu/~bkrishna/">Bhaskar Krishnamachari</a>.
                 I have <b>Master's and Bachelor's degrees</b> in <b>Computer Science</b> from <a href="https://csulb.edu">California State University, Long Beach</a>.
                 I am a <b>Member of the Technical Staff</b> at the Federally Funded Research and Development Center, <a href="https://aerospace.org">Aerospace Corporation</a>.
             </p> 
