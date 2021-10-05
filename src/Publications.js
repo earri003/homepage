@@ -3,6 +3,7 @@ import {Row, Col, Card } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion'
 import { SocialIcon } from 'react-social-icons';
 import { GrDocumentPdf } from 'react-icons/gr';
+import { katex } from 'katex';
 
 
 const websites = {
@@ -15,6 +16,37 @@ const websites = {
 }
 
 const pubs = [
+    {
+        "title": "Robotic Sorting on the Grid",
+        "venue": "To Appear at ICDCN 2022 - 23rd International Conference on Distributed Computing and Networking",
+        "authors": ["Jared Coleman", "Oscar Morales-Ponce",],
+        // "social": {
+        //     "pdf": ""
+        // },
+        "abstract": katex.render(
+            `Inspired by robotic applications, we study the problem of sorting a set of items 
+            over a physical domain with mobile agents. 
+            Given $m$ mobile robots and a grid where each cell contains a single element, 
+            the objective is to design algorithms that allow robots to cooperatively sort 
+            the elements over the grid in the minimum time. 
+            We assume a synchronous model where robots do not communicate, can carry up to 
+            $c$ elements, and can move between adjacent cells in one unit of time (grab and 
+            release time is negligible).
+            First, we show that any algorithm requires at least 
+            $\Omega\left(\frac{n^2}{mc}\right)$ units of time to sort an $n$-element line
+            (an $n \times 1$ grid) and present an algorithm that sorts the elements in 
+            $O\left(\frac{n^2}{mc}\right)$ time. 
+            Then, we show that any $n \times n$-grid requires at least 
+            $\Omega\left(\frac{n^3}{mc}\right)$ time and present an algorithm that 
+            completes in $O\left(\frac{n^3 \log n}{mc}\right)$ time. 
+            Our algorithms have an equivalent competitive ratio to Shear Sort 
+            [Isaacd et al., Proc ICPP 1986] with only $m = n$ agents (compared to the $n^2$ 
+            processors required by Shear Sort). 
+            Finally, we present experimental results that show the capacity has very little 
+            impact on the overall runtime and that a simplification of the algorithm leads 
+            to better results.`
+        )
+    },
     {
         "title": "The Pony Express Communication Problem",
         "venue": "In Proceedings IWOCA 2021 - 32nd International Workshop on Combinatorial Algorithms",
