@@ -3128,11 +3128,6 @@ commander@^4.1.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
   integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
 
-commander@^6.0.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
-  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
-
 common-tags@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.0.tgz#8e3153e542d4a39e9b10554434afaaf98956a937"
@@ -6454,13 +6449,6 @@ jsx-ast-utils@^2.2.1, jsx-ast-utils@^2.2.3:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
 
-katex@^0.13.18:
-  version "0.13.18"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.13.18.tgz#ba89e8e4b70cc2325e25e019a62b9fe71e5c2931"
-  integrity sha512-a3dC4NSVSDU3O1WZbTnOiA8rVNJ2lSiomOl0kmckCIGObccIHXof7gAseIY0o1gjEspe+34ZeSEX2D1ChFKIvA==
-  dependencies:
-    commander "^6.0.0"
-
 killable@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/killable/-/killable-1.0.1.tgz#4c8ce441187a061c7474fb87ca08e2a638194892"
@@ -6569,6 +6557,11 @@ load-json-file@^4.0.0:
     parse-json "^4.0.0"
     pify "^3.0.0"
     strip-bom "^3.0.0"
+
+load-script@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/load-script/-/load-script-1.0.0.tgz#0491939e0bee5643ee494a7e3da3d2bac70c6ca4"
+  integrity sha1-BJGTngvuVkPuSUp+PaPSuscMbKQ=
 
 loader-fs-cache@^1.0.2:
   version "1.0.2"
@@ -8807,6 +8800,13 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-mathjax@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-mathjax/-/react-mathjax-1.0.1.tgz#a8c282e75d277a201632dfd07edf41edda372b4b"
+  integrity sha512-+mjFcciZY3GQoqiQm3aRTyDjgBKuoaXpY+SCONX00jScuPpTKwnASeFMS5+pbTIzDf5zPT2Y9ZZfQ9U/d4CKtQ==
+  dependencies:
+    load-script "^1.0.0"
 
 react-overlays@^5.0.0:
   version "5.0.1"
