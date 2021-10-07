@@ -53,7 +53,7 @@ function App() {
       <Navbar bg="light" fixed="bottom" style={{opacity: 1, backgroundColor: "white"}}>
         <Nav key='nav-contact' className='mr-auto'>
           <Nav.Link href="mailto:jaredcol@usc.edu">Contact</Nav.Link>
-          <Nav.Link href="/resume.pdf">CV</Nav.Link>
+          <Nav.Link href="https://github.com/jaredraycoleman/cv/raw/master/resume.pdf">CV</Nav.Link>
         </Nav>
         <Nav>
           <SocialIcon key='social-facebook' url="https://facebook.com/jaredraycoleman" className="m-1" style={SOCIAL_STYLE} />
