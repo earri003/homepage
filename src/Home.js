@@ -9,7 +9,7 @@ function Home() {
             <Image src={profile} rounded width="100%" />
         </Col>
         <Col>
-            <h1 className="text-center">Jared Coleman</h1>
+            <h1 className="text-center">Erik Arriaga</h1>
             <p className="mt-3 text-center">
                 I am a <b>Ph.D. student</b> at <a href="https://usc.edu">University of Southern California</a> advised by <a href="http://ceng.usc.edu/~bkrishna/">Bhaskar Krishnamachari</a>.
                 I have Master's and Bachelor's degrees in <b>Computer Science</b> from <a href="https://csulb.edu">California State University, Long Beach</a>.
