@@ -22,7 +22,7 @@ function App() {
   return (
     <Router>
       <Navbar bg="light" expand="lg" className="mb-2">
-        <Navbar.Brand href="/">Jared Coleman</Navbar.Brand>
+        <Navbar.Brand href="/">Erik Arriga</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
