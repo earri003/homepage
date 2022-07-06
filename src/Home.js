@@ -11,8 +11,9 @@ function Home() {
         <Col>
             <h1 className="text-center">Erik Arriaga</h1>
             <p className="mt-3 text-center">
-                I am a currently looking for opportunities in Software Engineering, Machine Learning, or Data Science.
-                I have Master's degree in <b>Computer Science</b> from <a href="https://csulb.edu">California State University, Long Beach</a> and a Bachelor's degree from <a href="https://www.ucr.edu"> University of California, Riverside</a>. 
+                I am a casually looking for opportunities in Software Engineering, Machine Learning, or Data Science.
+                I have Master's degree in <b>Computer Science</b> from <a href="https://csulb.edu">California State University, Long Beach</a> and a Bachelor's degree from <a href="https://www.ucr.edu"> University of California, Riverside</a>.
+                Also, I am a Software Developer at <a href="https://www.gm.com/">General Motors</a>.
                 {/* I am also a Member of the Technical Staff at the Federally Funded Research and Development Center, <a href="https://aerospace.org">Aerospace Corporation</a>. */}
             </p> 
     

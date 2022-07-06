@@ -52,15 +52,15 @@ function App() {
       
       <Navbar bg="light" fixed="bottom" style={{opacity: 1, backgroundColor: "white"}}>
         <Nav key='nav-contact' className='mr-auto'>
-          <Nav.Link href="mailto:jaredcol@usc.edu">Contact</Nav.Link>
+          <Nav.Link href="mailto:erikarri12@gmail.com">Contact</Nav.Link>
           <Nav.Link href="https://github.com/jaredraycoleman/cv/raw/master/resume.pdf">CV</Nav.Link>
         </Nav>
         <Nav>
-          <SocialIcon key='social-facebook' url="https://facebook.com/jaredraycoleman" className="m-1" style={SOCIAL_STYLE} />
+          {/* <SocialIcon key='social-facebook' url="https://facebook.com/jaredraycoleman" className="m-1" style={SOCIAL_STYLE} />
           <SocialIcon key='social-instagram' url="https://instagram.com/jared_coleman" className="m-1" style={SOCIAL_STYLE} />
-          <SocialIcon key='social-twitter' url="https://twitter.com/jaredraycoleman" className="m-1" style={SOCIAL_STYLE} />
-          <SocialIcon key='social-linkedin' url="https://www.linkedin.com/in/jaredraycoleman/" className="m-1" style={SOCIAL_STYLE} />
-          <SocialIcon key='social-github' url="https://www.github.com/jaredraycoleman/" className="m-1" style={SOCIAL_STYLE} />
+          <SocialIcon key='social-twitter' url="https://twitter.com/jaredraycoleman" className="m-1" style={SOCIAL_STYLE} /> */}
+          <SocialIcon key='social-linkedin' url="https://www.linkedin.com/in/erik-m-arriaga/" className="m-1" style={SOCIAL_STYLE} />
+          <SocialIcon key='social-github' url="https://github.com/earri003" className="m-1" style={SOCIAL_STYLE} />
         </Nav>
       </Navbar>
     </Router>
